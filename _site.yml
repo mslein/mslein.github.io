@@ -17,4 +17,7 @@ navbar:
 collections:
   lessons: 
     categories: true
-output: distill::distill_article
+output:
+    distill::distill_article:
+      includes:
+        in_header: assets/header.html

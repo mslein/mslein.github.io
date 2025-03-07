@@ -107,3 +107,15 @@ ul > li::marker {
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
 
+.article-banner {
+  width: auto;
+  height: auto;
+  border: 0;
+}
+
+img[src="IMG_5045.jpeg"] {
+  border: 0;
+  padding: 0;
+  width: 100%;
+  margin: 100px 25px 0px 0px;
+}

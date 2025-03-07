@@ -1,16 +1,18 @@
 ---
 title: "Margaret Anne Slein"
 description: |
-  Open educational resources from the Living Data Project.
+  Marine ecologist interested in effects of temperature on symbioses.
 site: distill::distill_website
 #repository_url: https://github.com/Living-Data-Tutorials/website
-creative_commons: CC BY-NC
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+```{r pressure, echo=FALSE, out.width = '100%'}
+knitr::include_graphics("IMG_5045.jpeg")
+```
 
 <style>
 .zoom {
