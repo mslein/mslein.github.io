@@ -20,4 +20,4 @@ collections:
 output:
     distill::distill_article:
       includes:
-        in_header: assets/header.html
+        in_header: header.html
