@@ -1,0 +1,26 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About me",
+      "author": [],
+      "contents": "\n[Insert photo here]\nMy name is Maggie and I’m currently a PhD student in the O’Connor Lab at the University of British Columbia.\nMy interest in marine ecology is currently centring at the nexus of temperature, symbioses, and metabolic processes.\nPlease see (link to other page) for my about my current research projects\nYou can find my CV (link to other page here)\n\n\n\n",
+      "last_modified": "2025-03-06T15:57:57-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Living Data Tutorials",
+      "description": "Open educational resources from the Living Data Project.\n",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCorrections\nIf you see mistakes or want to suggest changes, please create an issue on the source repository.\nReuse\nText and figures are licensed under Creative Commons Attribution CC BY-NC 4.0. Source code is available at https://github.com/Living-Data-Tutorials/website, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: \"Figure from ...\".\n\n\n\n\n\n",
+      "last_modified": "2024-05-22T10:50:14-07:00"
+    },
+    {
+      "path": "README.html",
+      "author": [],
+      "contents": "\nHi! This is the repo for creating the Living Data Tutorials website.\nFor contributors to the Living Data Project\nStep-by-step contribution\nIf you’re a contributor, refer to the script create_post.R in the scripts folder.\nCreate a branch with a name that follows this format: LESSON/ecological_concept (all branches that host a lesson must have the “LESSON/” key before the name of the ecological concept it refers to).\nOpen the create_post.R script. Edit the title, the author and the date fields and run it. This will create a *.md file you can edit as usual.\nEdit the *.md file and knit it into a html file. Rebuild the website by typing rmarkdown::render_site().\nPush your changes to your branch on GitHub.\nWhen your lesson is done, create a pull request to the main branch and tag @jennsunday and @JoeyBernhardt as reviewers.\nFor instructors wishing to adapt our tutorials in their classroom\nDownload the files in the lessons folder. You can then edit them and knit them in your own computer to adapt the content to your specific needs.\n\n\n",
+      "last_modified": "2024-05-22T10:50:14-07:00"
+    }
+  ],
+  "collections": []
+}
